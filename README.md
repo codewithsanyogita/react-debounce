@@ -1,10 +1,19 @@
-# React Debounce
+# React Debounce Search 🔍
 
-This repository explains how **debouncing works in React** using a custom hook.
+This project demonstrates **debouncing in React** using:
+- JavaScript closure
+- useCallback hook
+- Real API (dummyjson)
 
-## What is Debounce?
-Debounce delays a function call until the user stops typing for a specific time.
+## Features
+- Prevents multiple API calls while typing
+- Clean debounce implementation
+- Beginner friendly
 
-## Usage Example
-```js
-const debouncedSearch = useDebounce(searchTerm, 500);
+## API Used
+https://dummyjson.com/products/search
+
+## Run Locally
+```bash
+npm install
+npm start
